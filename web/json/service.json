@@ -1,0 +1,30 @@
+[
+  {
+    "id":1,
+    "suiteId":1,
+    "name":"Service 1.1",
+    "description":"Service 1.1 description...",
+    "type":"REST"
+  },
+  {
+    "id":2,
+    "suiteId":1,
+    "name":"Service 1.2",
+    "description":"Service 1.2 description...",
+    "type":"JUNIT"
+  },
+  {
+    "id":3,
+    "suiteId":2,
+    "name":"Service 2.1",
+    "description":"Service 2.1 description...",
+    "type":"PL/SQL"
+  },
+  {
+    "id":4,
+    "suiteId":2,
+    "name":"Service 2.2",
+    "description":"Service 2.2 description...",
+    "type":"REST"
+  }
+]

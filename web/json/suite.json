@@ -1,0 +1,14 @@
+[
+  {
+    "id":1,
+    "name":"Suite1",
+    "description":"Suite1 description...",
+    "type":"UNIT"
+  },
+  {
+    "id":2,
+    "name":"Suite2",
+    "description":"Suite2 description...",
+    "type":"UNIT"
+  }
+]

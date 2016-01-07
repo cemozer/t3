@@ -1,0 +1,16 @@
+<table class="table table-condensed table-striped">
+    <thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Type</th>
+    </thead>
+    <tbody>
+        <tr ng-repeat="srv in services">
+            <td>{{srv.id}}</td>
+            <td>{{srv.name}}</td>
+            <td>{{srv.description}}</td>
+            <td>{{srv.type}}</td>
+        </tr>
+    </tbody>
+</table>

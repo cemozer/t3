@@ -1,0 +1,19 @@
+<table class="table table-condensed table-striped">
+    <thead>
+        <th>Id</th>
+        <th>Name</th>
+        <th>Description</th>
+        <th>Type</th>
+        <th></th>
+    </thead>
+    <tbody>
+        <tr ng-repeat="suite in suites">
+            <td>{{suite.id}}</td>
+            <td>{{suite.name}}</td>
+            <td>{{suite.description}}</td>
+            <td>{{suite.type}}</td>
+            <td><a href="#/service/{{suite.id}}" class="glyphicon glyphicon-menu-right"></a></td>
+        </tr>
+    </tbody>
+
+</table>
